@@ -44,9 +44,9 @@ springdoc:
 payment:
   provider:
     name: ${PAYMENT_PROVIDER:RAZORPAY}
-    key-id: rzp_test_TahYWzDhbi6cL9
-    key-secret: JLa1s8O87yqMEf58ZFxhS499
-    webhook-secret: JLa1s8O87yqMEf58ZFxhS499
+    key-id: {key}
+    key-secret: {key}
+    webhook-secret: {key}
 
 app:
   security:
